@@ -1,0 +1,36 @@
+name: GeneralOP
+main: com.Shadersoft.GeneralOP
+version: 1.0
+description: The Main Plugin for the GeneralOP server.
+authors: [DUFC_Liam, Mafrans, SorryIm2Fresh]
+commands:
+   staffchat:
+     description: Chat with other staff members
+     usage: /<command> <message>
+   staff:
+     description: Shows all online staff
+     usage: /<command>
+   adventure:
+     description: Sets your gamemode to Adventure mode.
+     usage: /<command> <message>
+   creative:
+     description: Sets your gamemode to Creative mode.
+     usage: /<command>
+   nick:
+     description: Nick yourself with this command! [W.I.P]
+     usage: /<command> <message>
+   specator:
+     description: Sets your gamemode to Spectator mode.
+     usage: /<command>
+   survival:
+     description: Sets your gamemode to Survival mode.
+     usage: /<command> <message>
+   mute:
+     description: Mute offending users with this!
+     usage: /<command>
+   warn:
+     description: Warn the bad players!
+     usage: /<command> <message>
+   setmotd:
+     description: Set the server MOTD
+     usage: /<command>

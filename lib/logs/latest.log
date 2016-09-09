@@ -1,0 +1,22 @@
+[23:00:06] [Server thread/INFO]: Starting minecraft server version 1.10
+[23:00:06] [Server thread/INFO]: Loading properties
+[23:00:06] [Server thread/WARN]: server.properties does not exist
+[23:00:06] [Server thread/INFO]: Generating new properties file
+[23:00:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Referensen (handle) är felaktig
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_101]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_101]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_101]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+	at net.minecraft.server.v1_10_R1.DedicatedServer$2.run(DedicatedServer.java:85) [Spigot-1.10.jar:git-Spigot-c3e4052-1953f52]
+[23:00:06] [Server thread/WARN]: Failed to load eula.txt
+[23:00:06] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[23:00:06] [Server thread/INFO]: Stopping server

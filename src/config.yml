@@ -1,0 +1,11 @@
+#                       #
+#   GeneralOP Config    #
+#                       #
+
+tablist:
+    header: '&c/\/\/\/\/ &dGeneral&c \/\/\/\/\'
+    footer: '&c\/\/\/\/\/\ &dO P&c /\/\/\/\/\/'
+    
+ranks:
+    Mafrans: DEVELOPER
+    SorryIm2Fresh: DEVELOPER
